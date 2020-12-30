@@ -1,3 +1,0 @@
-D:/PrivateProjects/src/LearningNotes-C/cmake-build-debug/CMakeFiles/LearningNotes_C.dir
-D:/PrivateProjects/src/LearningNotes-C/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/PrivateProjects/src/LearningNotes-C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
