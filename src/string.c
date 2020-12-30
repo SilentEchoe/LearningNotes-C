@@ -3,9 +3,8 @@
 //
 
 #include <stdio.h>
-#include <math.h>
 #include <assert.h>
-#include "string.h"
+#include <strop/string.h>
 
 
 void get_arg(const char *source, char *arg) {
@@ -13,7 +12,7 @@ void get_arg(const char *source, char *arg) {
 
     while (*source != '=')source++;
 
-    while (*source != NULL && source++){
+    while (*source != NULL && source++) {
         *arg = *source;
         arg++;
     }
