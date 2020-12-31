@@ -26,7 +26,7 @@ int str_len(const char *str) {
     return count;
 }
 
-int str_index(char s[], char t[]) {
+int NewStr_index(char s[], char t[]) {
     assert(s != NULL);
     assert(t != NULL);
     int i, j, k;
