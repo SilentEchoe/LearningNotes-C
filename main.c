@@ -8,18 +8,18 @@ const char pattern[] = "ould";
 
 
 int main(int argc, char *argv[]) {
-
-    int a[10] = {0,1,2,3,4,5,6,7,8,9};
-    int  *pa;
-    pa = &a[0];
-//    new_print_int_attr(&a[2]);
-    print_int_attr(a);
-
-    //printf("%d", *pa);
-
+    int a = 1;
+    int *b;
+    b = &a;
+    *b = *b + 10;
+    printf ("b的值为： %d ",*b);
+    printf("b的内存地址为： %d ",b);
+    printf("a的值为： %d ",a);
 
 
-    return *pa;
+
+
+
 
 ////    const char *source = argv[1];
 //// TODO: malloc 这里多分配了好几个字符，其实可以避免的。
