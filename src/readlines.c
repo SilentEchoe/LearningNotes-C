@@ -2,10 +2,8 @@
 // Created by kai_wang on 2021/1/7.
 //
 #include <strop/readlines.h>
-#define  MAXLEN 1000
-int getline(char *,int );
-char *alloc(int);
 
+#define  MAXLEN 1000;
 
 void strcpy_(char  *s,char *t){
     while (*s++ = *t++);
