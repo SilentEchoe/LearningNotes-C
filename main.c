@@ -1,21 +1,24 @@
 #include <stdio.h>
 #include <string.h>
 
-
-struct fraction {
-    int numerator;
-    int denominator;
+union quantity {
+    short count;
+    float weight;
+    float volume;
 };
 
 int main(void) {
-    char s[] = "Goats!";
-    char t[100];
-    memcpy(t, s, sizeof(s));  // 拷贝7个字节，包括终止符
-    printf("%s\n", t);  // "Goats!"
+    // 写法一
+    union quantity q;
+    q.count = 4;
 
-    struct fraction f1;
-    f1.denominator = 22;
-    f1.numerator = 7;
+    // 写法二
+    union quantity q1 = {.count = 4};
+
+    // 写法三
+    // 不指定属性名，默认赋给第一个属性
+    union  quantity q2 = {4};
+
 
     return 0;
 }
