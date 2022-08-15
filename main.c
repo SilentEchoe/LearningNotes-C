@@ -19,6 +19,8 @@ int main(void) {
     // 不指定属性名，默认赋给第一个属性
     union  quantity q2 = {4};
 
+    printf("count is %i\n",q.count);
+    printf("weight is %f\n",q.weight);
 
     return 0;
 }
