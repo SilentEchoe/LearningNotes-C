@@ -1,5 +1,9 @@
 #include <stdio.h>
 #include <string.h>
+#define SQUARE(X) X*X
+#define EXTRA_HAPPY
+
+
 
 union quantity {
     short count;
@@ -21,6 +25,12 @@ int main(void) {
 
     printf("count is %i\n",q.count);
     printf("weight is %f\n",q.weight);
+
+    printf("%d\n", SQUARE(3+2));
+
+#ifdef EXTRA_HAPPY
+    printf("I'm extra happy!\n");
+#endif
 
     return 0;
 }
