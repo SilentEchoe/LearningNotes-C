@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/Users/kai/CLionProjects/LearningNotes-C/build",
-  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-12   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++11 -o CMakeFiles/demo.dir/main.cpp.o -c /Users/kai/CLionProjects/LearningNotes-C/main.cpp",
-  "file": "/Users/kai/CLionProjects/LearningNotes-C/main.cpp"
-}
-]
