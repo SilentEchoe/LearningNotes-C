@@ -1,0 +1,2 @@
+build-main:
+	gcc -c main.cpp 
