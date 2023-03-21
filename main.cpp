@@ -18,5 +18,15 @@ int main()
     {
         Log("prt not is null");
     };
+
+    int count = 5;
+
+    for (size_t i = 0; i < count; i++)
+    {
+      Log("output");
+    }
+    
+    
+
     return 0;
 };
