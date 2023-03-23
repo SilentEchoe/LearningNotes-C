@@ -8,25 +8,11 @@ void Log(const char *messages)
 
 int main()
 {
+    // 创建一个空指针
 
-    const char *prt = nullptr;
-    if (prt == nullptr)
-    {
-        Log("prt is null");
-    }
-    else
-    {
-        Log("prt not is null");
-    };
-
-    int count = 5;
-
-    for (size_t i = 0; i < count; i++)
-    {
-      Log("output");
-    }
-    
-    
+    int var = 8;
+    void* ptr_nil = &var;
+ 
 
     return 0;
 };
